@@ -1,0 +1,19 @@
+{
+  "name": "mini-sql-guime7000",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "20.2.1"
+  },
+  "description": "TAP mini SQL Project",
+  "main": "prompt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "node ./dist/prompt.js"
+  },
+  "author": "Thomas Guimezanes",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
